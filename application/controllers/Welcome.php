@@ -5,6 +5,7 @@ class Welcome extends MY_Controller {
 	
 	public function index()
 	{
-		$this->mostar("");
+		$parametros = array('mostrar_barra' => $mostrar);
+		$this->mostrar('', $parametros);
 	}
 }

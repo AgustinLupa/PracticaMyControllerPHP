@@ -11,3 +11,10 @@
     <title><?php echo $titulo; ?></title>
   </head>
   <body>
+    <?php
+      if($mostrar_barra){
+    ?>
+      <h1>Barra de HERRAMIENTAS</h1>
+      <?php  
+      }
+      ?>
